@@ -1,0 +1,74 @@
+.app.dark {
+   background-color: #222;
+   color: #999;
+
+   .chartGrid {
+      stroke: #999;
+   }
+
+   .table {
+      background-color: #222;
+
+      .tablecell {
+         color: #999;
+      }
+   }
+
+   .navbar {
+      color: #999;
+      border-color: #333;
+
+      .search {
+         border-color: #333;
+      }
+   }
+
+   .sidebar {
+      background-color: #222;
+      border-color: #333;
+
+      hr {
+         border-color: #333;
+      }
+
+      ul {
+         li {
+            &:hover {
+               background-color: #333;
+            }
+
+            .icon {
+               color: #999;
+            }
+         }
+      }
+   }
+
+   .datatable {
+      .datagrid {
+         color: #999;
+         border: none;
+
+         .viewButton,
+         .cellWithStatus,
+         .deleteButton {
+            color: #999;
+            border: none;
+         }
+      }
+   }
+
+   input {
+      background: transparent;
+   }
+
+   .new,
+   .newHotel,
+   .newRoom {
+      .formInput {
+         input {
+            color: #999;
+         }
+      }
+   }
+}
